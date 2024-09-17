@@ -1,6 +1,6 @@
 {
   "name": "my-mask-library",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A Vue.js input mask component library",
   "main": "index.js",
   "keywords": ["vue", "vue3", "input", "mask"],
