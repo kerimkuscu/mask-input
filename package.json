@@ -1,0 +1,12 @@
+{
+  "name": "mask-input",
+  "version": "1.0.0",
+  "description": "A Vue.js input mask component library",
+  "main": "index.js",
+  "keywords": ["vue", "vue3", "input", "mask"],
+  "author": "Kerim Kuscu <kerimkuscu95@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
