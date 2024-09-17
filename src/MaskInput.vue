@@ -4,7 +4,13 @@
       v-bind="$attrs"
       @input="handleInput"
       :type="type"
-      :class="`${className}`"
+      :class="className"
+      :placeholder="placeholder"
+      :disabled="disabled"
+      :name="name"
+      :id="id"
+      :autocomplete="autocomplete"
+      :readonly="readonly"
   />
 </template>
 
@@ -28,6 +34,30 @@ export default defineComponent({
     },
     className: {
       type: String as PropType<string>,
+    },
+    placeholder: {
+      type: String as PropType<string>,
+      default: '',
+    },
+    disabled: {
+      type: Boolean as PropType<boolean>,
+      default: false,
+    },
+    name: {
+      type: String as PropType<string>,
+      default: '',
+    },
+    id: {
+      type: String as PropType<string>,
+      default: '',
+    },
+    autocomplete: {
+      type: String as PropType<string>,
+      default: 'off',
+    },
+    readonly: {
+      type: Boolean as PropType<boolean>,
+      default: false,
     },
   },
 
