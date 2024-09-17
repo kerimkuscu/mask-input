@@ -1,5 +1,5 @@
 {
-  "name": "mask-input",
+  "name": "my-mask-library",
   "version": "1.0.0",
   "description": "A Vue.js input mask component library",
   "main": "index.js",
