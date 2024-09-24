@@ -76,9 +76,16 @@ export default defineComponent({
 ### 2. Component Props
    The MaskInputComponent accepts the following props:
 
-mask (String, Required): The mask pattern to be applied to the input. Example: "(###) ###-####".
-type (String, Optional): The type of the input. Defaults to "text".
-className (String, Optional): Additional CSS class names to apply to the input.
+- mask (String, Required): The mask pattern to be applied to the input. Example: "(###) ###-####".
+- type (String, Optional): The type of the input. Defaults to "text".
+- className (String, Optional): Additional CSS class names to apply to the input.
+- placeholder (String, Optional): Placeholder text for the input. Defaults to an empty string.
+- disabled (Boolean, Optional): Disables the input if set to true. Defaults to false.
+- name (String, Optional): The name attribute for the input. Defaults to an empty string.
+- id (String, Optional): The id attribute for the input. Defaults to an empty string.
+- autocomplete (String, Optional): The autocomplete attribute for the input. Defaults to "off".
+- readonly (Boolean, Optional): Makes the input read-only if set to true. Defaults to false.
+
 ### 3. Handling Events
    The component emits the following event:
 
