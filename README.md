@@ -132,4 +132,4 @@ We welcome contributions! If you have any ideas, suggestions, or bug fixes, plea
 ## 🔗 License
 This project is licensed under the MIT License.
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](buymeacoffee.com/kerimkuscu)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](www.buymeacoffee.com/kerimkuscu)
