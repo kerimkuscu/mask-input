@@ -1,8 +1,12 @@
 {
   "name": "my-mask-library",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A Vue.js input mask component library",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kerimkuscu/mask-input"
+  },
   "keywords": ["vue", "vue3", "input", "mask"],
   "author": "Kerim Kuscu <kerimkuscu95@gmail.com>",
   "license": "MIT",
